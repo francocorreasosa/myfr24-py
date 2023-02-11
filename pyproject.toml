@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "myfr24"
+version = "0.1.1"
+description = "Simple tool to query myFlightRadar24 profiles"
+authors = ["Franco Correa <franco@francocorrea.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.11.2"
+requests = "^2.28.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,2 @@
+class ResponseFromFlightRadarWasNotSuccessful(Exception):
+    pass
